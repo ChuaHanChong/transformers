@@ -424,6 +424,7 @@ class GenerationConfig(PushToHubMixin):
         self.evolution_rate = kwargs.pop("evolution_rate", None)
         self.evolution_scale = kwargs.pop("evolution_scale", None)
         self.evolution_lower_bound = kwargs.pop("evolution_lower_bound", None)
+        self.alpha = kwargs.pop("alpha", None)
         self.diversity_penalty = kwargs.pop("diversity_penalty", 0.0)
         self.num_beam_groups = kwargs.pop("num_beam_groups", 1)
         self.constraints = kwargs.pop("constraints", None)
